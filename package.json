@@ -1,0 +1,23 @@
+{
+  "name": "mondayapp",
+  "version": "1.0.0",
+  "description": "Projeto de integração de dados com o Monday",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusbelnuovo/mondayintegration.git"
+  },
+  "author": "Vinícius Belnuovo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusbelnuovo/mondayintegration/issues"
+  },
+  "homepage": "https://github.com/viniciusbelnuovo/mondayintegration#readme",
+  "dependencies": {
+    "csv-writer": "^1.5.0",
+    "graphql-request": "^1.8.2"
+  }
+}
