@@ -1,0 +1,16 @@
+{
+    "development":{
+        "host":"",
+        "api":"",
+        "login":"",
+        "pwd":"",
+        "database":"CopasturMonday"
+    },
+    "production":{
+        "host":"",
+        "api":"",
+        "login":"",
+        "pwd":"",
+        "database":"CopasturMonday"
+    }
+}

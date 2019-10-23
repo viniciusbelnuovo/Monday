@@ -1,3 +1,4 @@
+const config = require('./config/config.json');
 const graphqlHttp = require('graphql-request'); 
 const fs = require('fs');
 
@@ -5,7 +6,7 @@ console.log('Iniciado API');
 
 const client = new graphqlHttp.GraphQLClient('https://api.monday.com/v2/', {
     headers: {
-      Authorization: '',
+      Authorization: config['development'].api,
     },
   });
 
